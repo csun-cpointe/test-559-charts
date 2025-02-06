@@ -2,7 +2,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   targetRevision: main
-  repo: https://github.com/csun-cpointe/test-559-10.git
+  repo: https://github.com/csun-cpointe/test-559-charts.git
   helm:
     valueFiles:
       - values.yaml

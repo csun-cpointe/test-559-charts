@@ -11,7 +11,7 @@ spec:
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
-    path: test-559-10-deploy/src/main/resources/apps/policy-decision-point
+    path: apps/policy-decision-point
     repoURL: {{ .Values.spec.repo }}
     targetRevision: {{ .Values.spec.targetRevision }}
     {{ if .Values.spec.helm.valueFiles }}

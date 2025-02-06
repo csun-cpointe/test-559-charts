@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     repoURL: {{ .Values.spec.repo }}
-    path: test-559-10-deploy/src/main/resources/apps/spark-infrastructure
+    path: apps/spark-infrastructure
     targetRevision: {{ .Values.spec.targetRevision }}
     {{ if .Values.spec.helm.valueFiles }}
     helm:
